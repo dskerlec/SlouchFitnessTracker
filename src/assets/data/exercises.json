@@ -1,0 +1,438 @@
+[
+    {
+      "id": "1",
+      "name": "Deadlift",
+      "type": "strength",
+      "muscleGroup": "HAMSTRINGS",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Stand with your feet shoulder-width apart.",
+        "Grip the barbell with both hands just outside your knees.",
+        "Lift the barbell by extending your hips and knees.",
+        "Lower the barbell back to the ground with control."
+      ],
+      "primaryMuscles": ["HAMSTRINGS", "GLUTES", "LOWER_BACK"],
+      "secondaryMuscles": ["QUADRICEPS"]
+    },
+    {
+      "id": "2",
+      "name": "Bent Over Rows",
+      "type": "strength",
+      "muscleGroup": "MIDDLE_BACK",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Bend at the hips with your back flat, keeping the barbell close to your shins.",
+        "Pull the barbell towards your waist, keeping your elbows tight to your body.",
+        "Slowly lower the barbell back down with control."
+      ],
+      "primaryMuscles": ["MIDDLE_BACK", "BICEPS"],
+      "secondaryMuscles": ["FOREARMS"]
+    },
+    {
+      "id": "3",
+      "name": "Pull Ups",
+      "type": "strength",
+      "muscleGroup": "LATS",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "EXPERT",
+      "instructions": [
+        "Hang from a pull-up bar with your palms facing away from you.",
+        "Pull your body upwards towards the bar by contracting your back muscles.",
+        "Lower yourself back to the starting position with control."
+      ],
+      "primaryMuscles": ["LATS", "BICEPS"],
+      "secondaryMuscles": ["FOREARMS"]
+    },
+    {
+      "id": "4",
+      "name": "Seated Incline DB Curls",
+      "type": "strength",
+      "muscleGroup": "BICEPS",
+      "equipment": ["DUMBBELL"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Sit on an incline bench and hold a dumbbell in each hand.",
+        "Curl the weights up towards your shoulders, focusing on your biceps.",
+        "Lower the weights back down slowly to the starting position."
+      ],
+      "primaryMuscles": ["BICEPS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "5",
+      "name": "Hanging Leg Raise",
+      "type": "strength",
+      "muscleGroup": "ABDOMINALS",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Hang from a pull-up bar with your legs straight.",
+        "Raise your legs towards the ceiling while keeping them straight.",
+        "Slowly lower your legs back down to the starting position."
+      ],
+      "primaryMuscles": ["ABDOMINALS"],
+      "secondaryMuscles": ["HIP_FLEXORS"]
+    },
+    {
+      "id": "6",
+      "name": "Planks",
+      "type": "strength",
+      "muscleGroup": "ABDOMINALS",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Lie on your stomach and raise your body up on your forearms and toes.",
+        "Keep your body straight from head to heels.",
+        "Hold the position for as long as possible, maintaining proper form."
+      ],
+      "primaryMuscles": ["ABDOMINALS"],
+      "secondaryMuscles": ["LOWER_BACK", "SHOULDERS"]
+    },
+    {
+      "id": "7",
+      "name": "Weighted Crunches",
+      "type": "strength",
+      "muscleGroup": "ABDOMINALS",
+      "equipment": ["DUMBBELL"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Lie on your back with your knees bent and hold a dumbbell to your chest.",
+        "Curl your upper body towards your knees, engaging your abs.",
+        "Slowly lower your back to the ground with control."
+      ],
+      "primaryMuscles": ["ABDOMINALS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "8",
+      "name": "Bench Press",
+      "type": "strength",
+      "muscleGroup": "CHEST",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Lie on a bench and grip the barbell with hands slightly wider than shoulder-width.",
+        "Lower the barbell to your chest and press it back up to the starting position."
+      ],
+      "primaryMuscles": ["CHEST", "TRICEPS", "DELTOIDS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "9",
+      "name": "Overhead Press",
+      "type": "strength",
+      "muscleGroup": "DELTOIDS",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Stand with a barbell at shoulder height.",
+        "Press the barbell overhead until your arms are fully extended.",
+        "Lower the barbell back to the starting position."
+      ],
+      "primaryMuscles": ["DELTOIDS", "TRICEPS"],
+      "secondaryMuscles": ["TRAPS"]
+    },
+    {
+      "id": "10",
+      "name": "Push Ups",
+      "type": "strength",
+      "muscleGroup": "CHEST",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Start in a plank position with your hands slightly wider than shoulder-width apart.",
+        "Lower your body towards the ground by bending your elbows.",
+        "Push your body back up to the starting position."
+      ],
+      "primaryMuscles": ["CHEST", "TRICEPS"],
+      "secondaryMuscles": ["DELTOIDS"]
+    },
+    {
+      "id": "11",
+      "name": "Lateral Raises",
+      "type": "strength",
+      "muscleGroup": "DELTOIDS",
+      "equipment": ["DUMBBELL"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Hold a dumbbell in each hand by your sides.",
+        "Raise the dumbbells out to the sides until your arms are parallel to the ground.",
+        "Lower the dumbbells back down slowly to the starting position."
+      ],
+      "primaryMuscles": ["DELTOIDS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "12",
+      "name": "Tricep Extensions",
+      "type": "strength",
+      "muscleGroup": "TRICEPS",
+      "equipment": ["DUMBBELL"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Hold a dumbbell overhead with both hands.",
+        "Lower the dumbbell behind your head by bending your elbows.",
+        "Extend your arms back to the starting position."
+      ],
+      "primaryMuscles": ["TRICEPS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "13",
+      "name": "One Arm Tricep Pushdowns",
+      "type": "strength",
+      "muscleGroup": "TRICEPS",
+      "equipment": ["CABLE"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Set up the cable machine with a rope attachment.",
+        "Grip the rope with one hand and pull it down until your arm is fully extended.",
+        "Slowly return to the starting position."
+      ],
+      "primaryMuscles": ["TRICEPS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "14",
+      "name": "Back Squat",
+      "type": "strength",
+      "muscleGroup": "QUADRICEPS",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Place the barbell on your upper traps and stand with feet shoulder-width apart.",
+        "Bend your knees and lower your body until your thighs are parallel to the ground.",
+        "Push through your heels to return to the standing position."
+      ],
+      "primaryMuscles": ["QUADRICEPS", "GLUTES", "HAMSTRINGS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "15",
+      "name": "Front Squat",
+      "type": "strength",
+      "muscleGroup": "QUADRICEPS",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Position the barbell across your front deltoids and grip the bar with your hands.",
+        "Squat down by bending your knees until your thighs are parallel to the ground.",
+        "Push through your heels to return to the starting position."
+      ],
+      "primaryMuscles": ["QUADRICEPS", "GLUTES", "HAMSTRINGS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "16",
+      "name": "Standing Calf Raises",
+      "type": "strength",
+      "muscleGroup": "CALVES",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Stand with your feet shoulder-width apart.",
+        "Rise up onto the balls of your feet, lifting your heels off the ground.",
+        "Slowly lower your heels back down to the starting position."
+      ],
+      "primaryMuscles": ["CALVES"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "17",
+      "name": "Leg Curls",
+      "type": "strength",
+      "muscleGroup": "HAMSTRINGS",
+      "equipment": ["MACHINE"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Lie face down on the leg curl machine and position the pad against your lower legs.",
+        "Curl your legs up as far as possible while keeping your hips stationary.",
+        "Slowly lower the weight back down."
+      ],
+      "primaryMuscles": ["HAMSTRINGS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "18",
+      "name": "Leg Extensions",
+      "type": "strength",
+      "muscleGroup": "QUADRICEPS",
+      "equipment": ["MACHINE"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Sit on the leg extension machine and adjust the seat so your knees are aligned with the pivot point.",
+        "Extend your legs until they are straight, squeezing your quads at the top.",
+        "Slowly lower the weight back down."
+      ],
+      "primaryMuscles": ["QUADRICEPS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "19",
+      "name": "Cable Chest Flyes",
+      "type": "strength",
+      "muscleGroup": "CHEST",
+      "equipment": ["CABLE"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Set the cables at chest height and grab the handles with both hands.",
+        "Step forward and pull the cables together in front of your chest.",
+        "Slowly return the cables to the starting position."
+      ],
+      "primaryMuscles": ["CHEST"],
+      "secondaryMuscles": ["DELTOIDS"]
+    },
+    {
+      "id": "20",
+      "name": "Barbell Rows",
+      "type": "strength",
+      "muscleGroup": "MIDDLE_BACK",
+      "equipment": ["BARBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Bend at the hips and knees, keeping your back flat and gripping the barbell.",
+        "Pull the barbell towards your lower chest.",
+        "Lower the barbell back down with control."
+      ],
+      "primaryMuscles": ["MIDDLE_BACK", "BICEPS"],
+      "secondaryMuscles": ["FOREARMS"]
+    },
+    {
+      "id": "21",
+      "name": "Face Pulls",
+      "type": "strength",
+      "muscleGroup": "DELTOIDS",
+      "equipment": ["CABLE"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Attach a rope to a cable machine at head height.",
+        "Pull the rope towards your face, keeping your elbows high.",
+        "Slowly return to the starting position."
+      ],
+      "primaryMuscles": ["DELTOIDS"],
+      "secondaryMuscles": ["TRAPS"]
+    },
+    {
+      "id": "22",
+      "name": "Leg Press",
+      "type": "strength",
+      "muscleGroup": "QUADRICEPS",
+      "equipment": ["MACHINE"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Sit in the leg press machine and position your feet shoulder-width apart on the platform.",
+        "Push the platform away from you by extending your legs.",
+        "Slowly lower the weight back down to the starting position."
+      ],
+      "primaryMuscles": ["QUADRICEPS", "GLUTES"],
+      "secondaryMuscles": ["HAMSTRINGS"]
+    },
+    {
+      "id": "23",
+      "name": "Incline DB Bench Press",
+      "type": "strength",
+      "muscleGroup": "CHEST",
+      "equipment": ["DUMBBELL"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Set an incline bench at about 30-45 degrees.",
+        "Press the dumbbells up and lower them until your elbows are at a 90-degree angle.",
+        "Push the dumbbells back up to the starting position."
+      ],
+      "primaryMuscles": ["CHEST", "DELTOIDS"],
+      "secondaryMuscles": ["TRICEPS"]
+    },
+    {
+      "id": "24",
+      "name": "Hammer Curls",
+      "type": "strength",
+      "muscleGroup": "BICEPS",
+      "equipment": ["DUMBBELL"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Hold a dumbbell in each hand with your palms facing your torso.",
+        "Curl the dumbbells as you keep your upper arms stationary.",
+        "Slowly lower the dumbbells back to the starting position."
+      ],
+      "primaryMuscles": ["BICEPS"],
+      "secondaryMuscles": []
+    },
+    {
+      "id": "25",
+      "name": "Bulgarian Split Squats",
+      "type": "strength",
+      "muscleGroup": "QUADRICEPS",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Place one foot behind you on a bench or elevated surface.",
+        "Lower your back knee towards the ground while keeping your chest upright.",
+        "Press through your front heel to return to the starting position."
+      ],
+      "primaryMuscles": ["QUADRICEPS", "GLUTES"],
+      "secondaryMuscles": ["HAMSTRINGS"]
+    },
+    {
+      "id": "26",
+      "name": "T-Bar Rows",
+      "type": "strength",
+      "muscleGroup": "MIDDLE_BACK",
+      "equipment": ["MACHINE"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Stand over the T-bar row machine and grip the handles.",
+        "Pull the bar towards your torso while squeezing your shoulder blades together.",
+        "Slowly return to the starting position."
+      ],
+      "primaryMuscles": ["MIDDLE_BACK", "BICEPS"],
+      "secondaryMuscles": ["DELTOIDS"]
+    },
+    {
+      "id": "27",
+      "name": "Lat Pull Downs",
+      "type": "strength",
+      "muscleGroup": "LATS",
+      "equipment": ["CABLE"],
+      "difficulty": "BEGINNER",
+      "instructions": [
+        "Sit at the lat pull-down machine and grip the bar wider than shoulder-width.",
+        "Pull the bar down towards your chest, squeezing your shoulder blades together.",
+        "Slowly return to the starting position."
+      ],
+      "primaryMuscles": ["LATS"],
+      "secondaryMuscles": ["BICEPS"]
+    },
+    {
+      "id": "28",
+      "name": "Cable Rows",
+      "type": "strength",
+      "muscleGroup": "MIDDLE_BACK",
+      "equipment": ["CABLE"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Sit at the cable row machine with your feet firmly placed.",
+        "Pull the handle towards your torso while squeezing your shoulder blades together.",
+        "Slowly return to the starting position."
+      ],
+      "primaryMuscles": ["MIDDLE_BACK", "BICEPS"],
+      "secondaryMuscles": ["DELTOIDS"]
+    },
+    {
+      "id": "29",
+      "name": "Dips",
+      "type": "strength",
+      "muscleGroup": "CHEST",
+      "equipment": ["BODY_ONLY"],
+      "difficulty": "INTERMEDIATE",
+      "instructions": [
+        "Grip the dip bars and raise yourself up.",
+        "Lower your body by bending your elbows, keeping your torso upright.",
+        "Push yourself back up to the starting position."
+      ],
+      "primaryMuscles": ["CHEST", "TRICEPS"],
+      "secondaryMuscles": ["DELTOIDS"]
+    }
+  ]
+  

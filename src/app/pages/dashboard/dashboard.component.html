@@ -5,5 +5,9 @@
     <app-next-workout></app-next-workout>
 </div>
 <div id="goalVisualization">
-    <!-- place three fw -->
+    <app-line-chart
+        [chartData]="lineChartData"
+        [chartOptions]="lineChartOptions"
+        [chartType]="'line'">
+    </app-line-chart>
 </div>

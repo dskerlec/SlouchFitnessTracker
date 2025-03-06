@@ -1,0 +1,53 @@
+header {
+  width: 100%;
+  background-color: var(--color-dark-blue);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    //gap: 15px; // Space between logo and text
+  }
+
+  // .logo {
+  //   width: 48px; 
+  //   height: 48px;
+  //   object-fit: contain;
+  //   border-radius: 8px;
+  // }
+
+  .app-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+
+  nav {
+    display: flex;
+    gap: 15px; // Reduced gap between nav items
+    align-items: center;
+    margin-right: 30px;
+    overflow: hidden;
+
+    a {
+      color: white;
+      text-decoration: none;
+      white-space: nowrap;
+      padding: 5px 10px;
+      border-radius: 4px;
+
+      &:hover {
+        color: var(--color-bright-red);
+        background-color: rgba(255,255,255,0.1); // Subtle hover effect
+      }
+    }
+  }
+}
